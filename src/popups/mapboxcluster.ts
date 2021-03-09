@@ -7,8 +7,8 @@ export function mapboxpopup(res: any): string {
         "https://apps-test.integralgis.com/node/framework/api/getJob",
         {
           params: {
-            jobProfileId: feature.properties?.JOB_ID.replace(/[{}]/g, "")
-          }
+            jobProfileId: feature.properties?.JOB_ID.replace(/[{}]/g, ""),
+          },
         }
       );
 
@@ -25,4 +25,3 @@ export function mapboxpopup(res: any): string {
     })();
   })}</div>`;
 }
-

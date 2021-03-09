@@ -3,8 +3,6 @@ import ReactDOM from "react-dom";
 import "./styles/index.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
-const Lint = require("tslint");
-console.log(JSON.stringify(Lint));
 
 ReactDOM.render(
   <React.StrictMode>
