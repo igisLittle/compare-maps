@@ -1,0 +1,32 @@
+{
+	"suggest.noselect": false,
+	"coc.preferences.formatOnSaveFiletypes": [
+		"javascript",
+		"typescript",
+		"javascriptreact",
+		"typescriptreact",
+		"json",
+		"graphql",
+		"css",
+		"markup"
+	],
+	"prettier.eslintIntegration": true,
+	"prettier.tslintIntegration": true,
+	"prettier.stylelintIntegration": true,
+	"prettier.printWidth": 80,
+	"prettier.tabWidth": 2,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.bracketSpacing": true,
+	"prettier.jsxBracketSameLine": false,
+	"prettier.parser": "typescript",
+	"prettier.semi": true,
+	"prettier.useTabs": false,
+	"prettier.proseWrap": "preserve",
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.disableSuccessMessage": false,
+	"eslint.enable": true,
+	"eslint.autoFixOnSave": true,
+	"eslint.autoFix": true
+}
